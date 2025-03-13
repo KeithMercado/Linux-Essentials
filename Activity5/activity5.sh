@@ -84,4 +84,5 @@ echo
 for file in *.jpg
 do
   mv "$file" "${file%.jpg}.png"
+  echo "Successfully converted jpg file to png"
 done
